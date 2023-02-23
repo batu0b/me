@@ -1,8 +1,8 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://batu0b.github.io/me",
+  "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.6.1",
     "@react-spring/web": "^9.6.1",

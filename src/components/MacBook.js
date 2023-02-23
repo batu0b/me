@@ -2,7 +2,7 @@ import React, { forwardRef, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 const MacBook = forwardRef((props, ref) => {
-  const { nodes, materials } = useGLTF("/macbook_air_m2.glb");
+  const { nodes, materials } = useGLTF("me/models/macbook_air_m2.glb");
   return (
     <group ref={ref} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>

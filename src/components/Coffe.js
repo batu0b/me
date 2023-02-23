@@ -2,7 +2,7 @@ import React, { forwardRef, useRef } from "react";
 import { Text, useGLTF } from "@react-three/drei";
 
 const Coffe = forwardRef((props, ref) => {
-  const { nodes, materials } = useGLTF("/cof.glb");
+  const { nodes, materials } = useGLTF("me/models/cof.glb");
   return (
     <group {...props} ref={ref} dispose={null}>
       <group position={[0.02, 0.05, 0.01]} scale={0.29}>

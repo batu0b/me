@@ -2,7 +2,7 @@ import { useGLTF } from "@react-three/drei";
 import React, { forwardRef } from "react";
 
 export const Phone = forwardRef((props, ref) => {
-  const { nodes, materials } = useGLTF("/samsung_galaxy_s21_violet.glb");
+  const { nodes, materials } = useGLTF("me/models/samsung_galaxy_s21_violet.glb");
   return (
     <group ref={ref} {...props} dispose={null}>
       <group scale={0.01}>
